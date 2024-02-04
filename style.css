@@ -1,0 +1,79 @@
+/*---- Reset ---*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+/*--- reset ---*/
+
+/*--- debug --- */
+
+.debug .logo{
+    border: 2px dashed coral;
+}
+
+.debug .link{
+    border: 2px dashed coral;
+}
+
+.debug .login{
+    border: 2px dashed coral;
+    padding-left: 10px;
+}
+/*---- Debug ----*/
+
+
+
+/*---- header ---*/
+
+header{
+    min-height: 100px;
+    background-color: lightblue;
+
+}
+/*--- Header ---*/
+
+/*--- Grid layout --- */
+
+header > .container{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+}
+
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;  
+    
+    margin-left: 10px;
+    margin-right: 10px;   
+}
+
+.row > *{
+    padding: 0 10px;
+    align-items: center;
+}
+
+.row-10{
+    width: 40%;
+    align-self: baseline;
+}
+
+.row-80{
+    width: 60%;
+}
+
